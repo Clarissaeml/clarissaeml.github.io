@@ -1,0 +1,40 @@
+
+body {
+	font-family: helvetica;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1px;
+
+}
+.wrapper {
+width: 960px;
+background: #f1f1f1;
+margin: 25px 50px 25px 50px;
+
+}
+
+#something {
+
+}
+
+h1, h2 {
+	font-size: 16px;
+	margin: 0;
+	font-weight: normal;
+}
+
+/*These are my links */
+a{
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #000;
+	background: #ccc;
+
+}
+
+a:hover { color: #ffff00; }
+a:active { color: #fff; }
+
+LV HA
