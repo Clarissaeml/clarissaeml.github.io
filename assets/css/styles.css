@@ -11,6 +11,7 @@ body {
 .wrapper {
 width: 960px;
 background: #f1f1f1;
+font-size: 0;
 margin: 25px 50px 25px 50px;
 
 }
@@ -36,5 +37,37 @@ a{
 
 a:hover { color: #ffff00; }
 a:active { color: #fff; }
+a:visited { color: #fff; }
 
-LV HA
+div {
+	background-color: #ff0;
+	vertical-align: top;
+}
+
+.header, .footer {
+	width: 930px;
+	background: #fff;
+	margin: 0 15px;
+	font-size: 16px;
+	line-height: 20px;
+
+.c1, .c2, .c3, .c4, .c5, .c6 {
+	background-color: #ff0;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0 15px 30px 15px;
+	display: inline-block;
+}
+
+.c1 { width: 130px; }
+
+.c2 { width: 290px; }
+
+.c3 { width: 450px; }
+
+.c4 { width: 610px; }
+
+.c5 { width: 770px; }
+
+.c6 { width: 930px; }
+	
