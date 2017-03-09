@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width:960px;
+}
+
+.composition {
+    width:768px;
+    height: 768px;
+    background:#f8e71c;
+    position: relative;
+}
+
+.bottombar {
+    position: absolute;
+    width:768px;
+    height: 100px;
+    background: #D0021B;
+    bottom: 0;  
+}
+
+.bluesquare {
+    position: absolute;
+    width:568px;
+    height: 568px;
+    top:100px;
+    left:100px;
+    background: #202665;
+}
+
+.greensquare {
+    position: absolute;
+    width:368px;
+    height: 368px;
+    top:200px;
+    left:200px;
+    background: #009E4F;
+}
+
+.redbar {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top:220px;
+    left:220px;
+    background: #ED2025;
+}
+
+.redbar2 {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 307px;
+    left:220px;
+    background: #ED2025;
+}
+
+.redbar3 {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 394px;
+    left:220px;
+    background: #ED2025;
+}
+
+.redbar4 {
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    top: 481px;
+    left: 220px;
+    background: #ED2025;
+}
