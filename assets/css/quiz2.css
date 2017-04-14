@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+}
+
+div {vertical-align: top;}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.composition {
+	width: 768px;
+	height: 600px;
+	background: #586343;
+	margin: 0;
+}
+
+.beige {
+	display: inline-block;
+	width: 256px;
+	height: 400px;
+	background: #ABBA94;
+	padding: 50px;
+}
+
+.grey {
+	display: inline-block;
+	width: 512px;
+	height: 200px;
+	background: #6A6E70;
+	padding: 50px;
+
+}
+
+.lightgrey {
+	display: inline-block;
+	width: 512px;
+	height: 200px;
+	background: #D1D8DB;
+	padding: 50px;
+}
+
+.darkgreen{
+	display: inline-block;
+	width: 256px;
+	height: 400px;
+	background: #1D270D;
+	position: absolute;
+	top: 200px;
+	padding: 50px;
+}
+
+.middle{
+	display: inline-block;
+	width: 256px;
+	height: 200px;
+	background: #586343;
+	position: absolute;
+	top: 200px;
+	left: 256px;
+	padding: 50px;
+}
+
+.insidebeige {
+	display: inline-block;
+	width: 156px;
+	height: 300px;
+	background: black;
+	padding-top:10px;
+	padding-bottom: 10px;	
+}
+
+.rect {
+	display:inline-block;
+	width: 73px;
+	height: 280px;
+	background:#E3E4D3;
+}
+
+.rect2 {
+	display:inline-block;
+	width: 73px;
+	height: 280px;
+	background:#E3E4D3;
+	margin-left: 10px;
+}
+
+.insidegreen {
+	display: inline-block;
+	width: 156px;
+	height: 300px;
+	background: white;
+	padding-top:10px;
+	padding-bottom: 10px;	
+}
+
+.rects {
+	display:inline-block;
+	width: 73px;
+	height: 280px;
+	background:#1D270D;
+}
+
+.rects2 {
+	display:inline-block;
+	width: 73px;
+	height: 280px;
+	background:#1D270D;
+	margin-left: 10px;
+}
+
+.insidegrey {
+	width: 412px;
+	height: 100px;
+	background: #1D270D;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+.insidelightgrey {
+	width: 412px;
+	height: 100px;
+	background: #1D270D;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.whitelines {
+	width: 392px;
+	height: 8px;
+	background: white;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.rectangles {
+	display: inline-block;
+	width:57px;
+	height: 80px;
+	margin: 5px;
+	background:#6A6E70;
+}
+
+.circle {
+	display: block;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px; 
+	background:#F7FAF0;
+	margin-left:25px;
+}
+
