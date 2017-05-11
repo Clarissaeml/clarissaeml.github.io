@@ -1,0 +1,103 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color:#4B0082;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  font-style: italic;
+
+}
+
+div.a {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+   
+    }
+
+div.b {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+   
+    }
+
+div.c {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+
+    }
+
+div.d {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+
+    }
+ div.e {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+
+    }
+    
+div.f {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+
+    }
+
+ div.g {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+
+    }
+ div.h {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+
+    }
+    
+div.i {
+    display: inline-block; 
+    position: absolute;
+    height: 250%; 
+    width: 250%;
+    display: table;
+
+    }
+
+div.counter {
+    font-family: Helvetica;
+    color: white;
+    font-size: 75px
+}
+
+a{
+      color: white;
+    }
+    
