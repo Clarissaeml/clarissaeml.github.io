@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="chanceend.css" media="all" rel="stylesheet" />
+    <link rel="shortcut icon" href="" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+<body>
+	<div>
+		<h1>
+ 		<p><a class="share" href="#">Share your catchphrase!</a></p>
+		</h1>
+	</div>
+
+	<script>
+		var phrase = localStorage.getItem("storageName").split('.');
+		var link = "http://twitter.com/share?text=My catchphrase is " + phrase + "&url=http://yourpage&hashtags=Please,Give,Me,An,A,thanks";
+
+		$('.share').attr('href', link);
+
+	</script>
+
+	    <script src="assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+

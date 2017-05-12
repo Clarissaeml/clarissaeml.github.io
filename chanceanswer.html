@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="chanceanswer.css" media="all" rel="stylesheet" />
+    <link rel="shortcut icon" href="" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+<body>
+		<div class="end">
+		<h1>
+ 		<p><a href="chanceend.html">
+ 		
+ 		<span id='cachedPhrase1'></span>    
+ 		<span id='cachedPhrase2'></span>
+ 		</a></p>
+		</h1>
+	</div>
+
+	    <script src="assets/js/app.js"></script>
+	  
+	    <script type="text/javascript">
+	    	var cachedStrings = localStorage.getItem("storageName").split('.');
+	    	//alert(cachedStrings);
+	    	$('#cachedPhrase1').append(cachedStrings[0]);
+	    	$('#cachedPhrase2').append(cachedStrings[1]);
+	    </script>
+	    
+</body>
+</html>
+
+	    <script src="assets/js/app.js"></script>
+</body>
+</html>
